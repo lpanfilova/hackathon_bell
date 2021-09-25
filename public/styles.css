@@ -1,0 +1,51 @@
+#main_pic{
+    background-image: url('env_home_pic.jpg');
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    margin: 0px; 
+    color: white;
+}
+
+#center_text{
+    color: #ffffff; 
+    background-color: rgba(255,255,255, 0.25);
+    border-radius: 15px;
+    margin: auto;
+    max-width: 700px;
+    text-align: left;
+    padding: 10px;
+    font-size: 120%;
+}
+
+#center_text_bottom{
+    font-size: 120%;
+}
+
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    padding-bottom: 100px; 
+  }
+  
+  img {
+    width: 400px;
+  }
+
+  ul {
+    list-style-position: inside;
+    text-align: left;
+  }
+
+  .meat_prod
+  {
+      min-width: 600px;
+  }
+
+  .rectangle
+  {
+    text-align: left;
+  }

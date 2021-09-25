@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1598/1598196.png">
+    <title>Take action</title>
+</head>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Take action</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="transportation.html">Transportation</a>
+              <a class="nav-link" href="reusables.html">Reusables</a>
+              <a class="nav-link" href="food.html">Food</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    
+    <main class="d-flex flex-column vh-100">
+      <div class="card m-5">
+        <div class="card-body">
+          <div class="App">
+            <h1 class ="center">Plastic Pollution</h1><br>
+      <img src="https://www.afrik21.africa/wp-content/uploads/2020/04/shutterstock_389376568-1-800x400.jpg" alt="a">
+      <br>
+      <br>
+      <h3 class="center">What is the problem?</h3>
+      <div>The problem of using plastic is much more dramatic and harmfol than you think. People produce more than 380 million tonnes of plastic every year and only 16 % of this plastic is going to be recycled. We use it every day, like bottles, shopping bags, packages for all kinds of goods, but we aren’t informed enough about its harm.</div>
+      <br>
+        <h3 class="center">Why is plastic bad?</h3>
+        <div>
+            <ol class="rectangle">
+            <li><a href="#"></a>It takes up to 500 years to recycle.</li>
+            <li><a href="#"></a>Plastic is polluting our environment</li>
+            <li><a href="#"></a>It could even destroy the natural habits of all kinds of animals (mainly in the ocean)</li>
+            <li><a href="#"></a>Big amount of animals are dying, because of getting stuck in the plastic</li>
+          </ol>
+        </div>
+      
+      <br>
+      <h3 class="center">What could you do?</h3>
+      <div>It’s really easy to get rid of plastic addiction:
+          <br>
+        <ol class="rectangle">
+          <li><a href="#"></a>Stop using plastic bags while shopping.  You coold buy a good cotton shopping bag for only 20$ and then use it for several years. By using this idea you save up to 5 kilograms of plastic for the next 2-3 years.</li>
+          <li><a href="#"></a>Stop using plastic bottles. You coold buy a glass water bottle for 30$ and it will save up to 2 kilograms of plastic for the next 2-3 years</li>
+        </ol>
+      </div>
+          </div>
+        </div>
+    </main>
+
+    <footer class="footer bg-dark py-3 mt-auto fixed-bottom">
+        <div class="container">
+            <span class="text-muted">Take action 2021</span>
+        </div>
+    </footer>
+    
+      <script>
+    (function () {
+      'use strict'
+    
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.validated-form')
+    
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+    
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+    </script>
+</body>
+</html>

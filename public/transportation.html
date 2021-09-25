@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1598/1598196.png">
+    <title>Take action</title>
+</head>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Take action</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="transportation.html">Transportation</a>
+              <a class="nav-link" href="reusables.html">Reusables</a>
+              <a class="nav-link" href="food.html">Food</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    
+    <main class="d-flex flex-column vh-100">
+        <div class="card m-5 mb-5">
+            <div class="card-body">
+              <div class="App">
+                <h1>Transportation</h1>
+                <p>
+                  New innovative solutions are going to take time to develop and take a
+                  lot of money. You can choose to push these projects further into the
+                  future by being an early adopter or recommending them to friends or
+                  family. Talk about possible solutions and encourage discussions about
+                  using renewable resources in transportation with your local government
+                  so that your representative can fight for these issues in larger
+                  government bodies.
+                </p>
+                <br>
+                <h3>63% of Canada's electricity comes from Renewable Resources</h3>
+                <br>
+                <h3>82% of Canada's electricity does not produce Green House Gases</h3>
+                <br>
+                <a
+                  href="https://www.nrcan.gc.ca/science-and-data/data-and-analysis/energy-data-and-analysis/energy-facts/electricity-facts/20068"
+                  target="_blank"
+                >
+                  See for yourself here
+                </a>
+                <h2>What can you do to help reduce pollution?</h2>
+                <p>Take the train!</p>
+                <img src="https://i0.wp.com/www.cliftonhill.com/falls_blog/wp-content/uploads/2019/05/go-train-niagara-falls.jpg?fit=2693%2C1713&ssl=1" />
+                <p>Take the bus!</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/TTC_1515.JPG" />
+                <h3>Need a Car?</h3>
+                <p>Go Electric!</p>
+                <img src="https://www.motortrend.com/uploads/sites/5/2019/04/2019-Tesla-Model-S-range-road-trip-front-side-motion-view.jpg" />
+                <h3>Other great solutions:</h3>
+                <p>Use an E-Scooter!</p>
+                <img src="https://images.dailyhive.com/20210422085542/shutterstock_1154465734.jpg" />
+                <p>Use an E-bike</p>
+                <img src="https://canadiantire.scene7.com/is/image/CanadianTire/0711931_1?defaultImage=image_na_EN&fmt=jpg&fit=constrain,1&wid=573&hei=499" />
+                <h1>Walking is also a great option!</h1>
+              </div>
+              
+            </div>
+        </div>  
+    </main>
+
+    <footer class="footer bg-dark py-3 mt-auto fixed-bottom">
+      <div class="container">
+          <span class="text-muted">Take action 2021</span>
+      </div>
+  </footer>
+    
+      <script>
+    (function () {
+      'use strict'
+    
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.validated-form')
+    
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+    
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+    </script>
+</body>
+</html>

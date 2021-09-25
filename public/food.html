@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1598/1598196.png">
+    <title>Take action</title>
+</head>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Take action</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="transportation.html">Transportation</a>
+              <a class="nav-link" href="reusables.html">Reusables</a>
+              <a class="nav-link" href="food.html">Food</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    
+    <main class="d-flex flex-column vh-100">
+      <div class="card m-5">
+        <div class="card-body">
+          <div class="App">
+            <h1>Diet and Livestock</h1>
+            <h2>Start editing to see some magic happen!</h2>
+            <img
+              src="https://cdn.technologynetworks.com/tn/images/thumbs/jpeg/640_360/managing-meat-demand-and-greenhouse-gases-318421.jpg"
+              alt="Meat Produce"
+            ></img>
+            <br>
+            <br>
+            <p>
+              There are currently 7.9 billion people in the world, and our population
+              is expected to grow to 10 billion by 2050. Traditional diets consisted
+              primarily of meat with some meat. However, with industrial meat
+              production, the production of and demand for meat has risen. Global meat
+              production has increased from 71 million tonnes in 1961 to 341.16
+              million tonnes in 2018, and this number is expected to keep growing. We
+              will need to produce more food to feed a growing population, and it is
+              important to understand the implications this will have on our global
+              carbon footprint. A lot of land, water, and food is used to raise
+              livestock, and as the the global population and the demand for meat
+              continue to grow, it will become difficult to justify using these
+              resources for livestock instead of directly feeding our population.
+            </p>
+            <img class="meat_prod"
+              src="globalmeatproduction.png"
+              alt="Global Meat Production from 1961 to 2018"
+            ></img>
+            <br>
+            <br>
+            <h1>What can you do?</h1>
+
+            <p>
+              On the surface, it can seem like there is not much one person can do to
+              reduce global greenhouse gas emissions from livestock. However, it is
+              important to understand the impact each person can make collectively
+              using their votes and their wallets. An individual's change in diet may
+              not significantly reduce global greenhouse gas emissions from livestock,
+              but multiple people reducing their meat intake will reduce local demand
+              for livestock products, which can reduce local livestock production. You
+              can also vote for sustainability-minded politicians who will provide
+              funding for meat substitute research and who can enact changes in their
+              local livestock sectors through legislation.
+            </p>
+      
+            <h1>Resources</h1>
+            <p>
+              To learn more about greenhouse gas contributions by livestock production
+              you can use the following resources:
+            </p>
+            <ul>
+              <li>
+                <a href="http://www.fao.org/news/story/en/item/197623/icode/">
+                  Livestock Emissions - Key Facts and Findings (Food & Agriculture
+                  Organization of the United Nations)
+                </a>
+              </li>
+              <li>
+                <a href="https://ourworldindata.org/meat-production">
+                  Meat and Dairy Production (Our World in Data)
+                </a>
+              </li>
+              <li>
+                <a href="https://www.wri.org/insights/5-questions-about-agricultural-emissions-answered">
+                  5 Questions About Agricultural Emissions, Answered (World Resources
+                  Institute)
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </main>
+
+    <footer class="footer bg-dark py-3 mt-auto fixed-bottom">
+        <div class="container">
+            <span class="text-muted">Take action 2021</span>
+        </div>
+    </footer>
+    
+      <script>
+    (function () {
+      'use strict'
+    
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.validated-form')
+    
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+    
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+    </script>
+</body>
+</html>
